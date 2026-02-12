@@ -1,0 +1,42 @@
+.offer-card {
+  width: 343px;
+  height: 84px;
+  margin: 40px auto;
+
+  background: #efefef;
+  border-radius: 14px;
+
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 0 16px;
+}
+
+/* image */
+.offer-img {
+  width: 75px;
+  height: 60px;
+  object-fit: contain;
+}
+
+/* text block */
+.offer-text {
+  width: 171px;
+}
+
+.offer-text h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.offer-text span {
+  font-size: 18px;
+}
+
+.offer-text p {
+  margin: 4px 0 0;
+  font-size: 14px;
+  color: #444;
+  line-height: 1.3;
+}

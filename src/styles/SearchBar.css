@@ -1,0 +1,26 @@
+.search-bar {
+  width: 343px;
+  height: 40px;
+  background: white;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  box-shadow: 0 2px 9px rgba(0,0,0,.04);
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 14px;
+}
+
+.search-icon {
+  width: 16px;
+  margin-right: 6px;
+}
+
+.mic-icon {
+  width: 14px;
+}

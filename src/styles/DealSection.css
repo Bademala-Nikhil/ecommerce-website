@@ -1,0 +1,30 @@
+.deal-section {
+  width: 343px;
+  height: 60px;
+  border-radius: 12px;
+  background: linear-gradient(135deg,#4a90e2,#3f7dd1);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  color: white;
+}
+
+.deal-left h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.timer {
+  font-size: 13px;
+}
+
+.view-btn {
+  width: 89px;
+  height: 28px;
+  border-radius: 4px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+}

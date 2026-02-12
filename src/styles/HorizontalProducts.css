@@ -1,0 +1,94 @@
+/* SECTION */
+.h-products{
+  width: 340px;
+  height: 186px;
+  margin: 16px auto;
+
+  display: flex;
+  gap: 16px;
+  position: relative;
+
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.h-products::-webkit-scrollbar{
+  display:none;
+}
+
+
+/* CARD */
+.h-card{
+  width: 142px;
+  height: 186px;
+  flex-shrink: 0;
+
+  background: white;
+  border-radius: 12px;
+  padding: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.05);
+}
+
+
+/* IMAGE */
+.h-card img{
+  width: 142px;
+  height: 100px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+
+/* TITLE */
+.h-card h4{
+  font-size: 14px;
+  margin: 8px 0 4px;
+  font-weight: 500;
+}
+
+
+/* PRICE */
+.price{
+  font-weight: 700;
+  font-size: 16px;
+}
+
+
+/* OLD + OFF */
+.old-row{
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.old{
+  text-decoration: line-through;
+  color:#888;
+  margin-right:6px;
+}
+
+.off{
+  color:#ff5a5a;
+}
+
+
+/* ARROW */
+.h-arrow{
+  position:absolute;
+  right:-8px;
+  top:50%;
+  transform:translateY(-50%);
+
+  width:40px;
+  height:40px;
+
+  background:white;
+  border-radius:50%;
+  box-shadow:0 4px 12px rgba(0,0,0,.15);
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  font-size:24px;
+  cursor:pointer;
+}

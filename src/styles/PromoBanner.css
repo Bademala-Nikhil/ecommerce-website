@@ -1,0 +1,49 @@
+.promo-section {
+  width: 343px;
+}
+
+.promo-bg {
+  height: 189px;
+  border-radius: 12px;
+  background: linear-gradient(135deg,#ff8da1,#ff6f91);
+  position: relative;
+  padding: 26px 20px;
+  color: white;
+}
+
+.promo-content h2 {
+  margin: 0 0 8px;
+  font-size: 28px;
+}
+
+.promo-content p {
+  margin: 2px 0;
+  font-size: 14px;
+}
+
+.shop-btn {
+  margin-top: 12px;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+}
+
+.promo-dots {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+
+.promo-dots span {
+  width: 8px;
+  height: 8px;
+  background: #ddd;
+  border-radius: 50%;
+}
+
+.promo-dots .active {
+  background: #ff6b8a;
+}

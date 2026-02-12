@@ -1,0 +1,92 @@
+/* Screen Layout */
+.screen {
+  position: relative;
+  width: 390px;
+  height: 844px;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+    border-radius: 28px;
+  box-shadow: 0 25px 70px rgba(0,0,0,0.35);
+}
+
+/* Background Image */
+.background {
+  position: absolute;
+  width: 390px;
+  height: 844px;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+}
+
+/* Top Bar */
+.top-bar {
+  width: 343px;              /* match page content width */
+  height: 44px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 0 auto;            /* centers horizontally */
+
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
+/* Bottom Section */
+.bottom-section {
+  position: absolute;
+  width: 390px;
+  height: 362px;
+  top: 482px;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.85),
+    rgba(0, 0, 0, 0.4),
+    transparent
+  );
+  z-index: 1;
+}
+
+/* Text Layout */
+.text-content {
+  position: absolute;
+  width: 315px;
+  height: 123px;
+  top: 70px; /* 552 - 482 */
+  left: 37px;
+  text-align: center;
+  color: white;
+}
+
+.text-content h1 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 38px;
+  margin: 0;
+}
+
+.text-content p {
+  margin-top: 12px;
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+/* Button */
+.cta-btn {
+  position: absolute;
+  width: 279px;
+  height: 55px;
+  top: 273px; /* 755 - 482 */
+  left: 55px;
+  border-radius: 4px;
+  background-color: #ff3b5c;
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
